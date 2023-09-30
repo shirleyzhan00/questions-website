@@ -1,10 +1,12 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import NavBar from "./components/NavBar";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <BrowserRouter>
+      <NavBar />
+    </BrowserRouter>
   );
 };
 
