@@ -1,7 +1,6 @@
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Button from "@mui/material/Button";
-import CameraIcon from "@mui/icons-material/PhotoCamera";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -27,9 +26,8 @@ const Home = () => {
       <CssBaseline />
       <AppBar position="relative">
         <Toolbar>
-          <CameraIcon sx={{ mr: 2 }} />
           <Typography variant="h6" color="inherit" noWrap>
-            Album layout
+            CS Questions Website
           </Typography>
         </Toolbar>
       </AppBar>
@@ -50,7 +48,7 @@ const Home = () => {
               color="text.primary"
               gutterBottom
             >
-              Album layout
+              CS Questions Website
             </Typography>
             <Typography
               variant="h5"
@@ -58,9 +56,9 @@ const Home = () => {
               color="text.secondary"
               paragraph
             >
-              Something short and leading about the collection below—its
-              contents, the creator, etc. Make it short and sweet, but not too
-              short so folks don&apos;t simply skip over it entirely.
+              This is a website dedicated to refresh your memories on the
+              concepts on various subjects in the computer science and
+              programming field.
             </Typography>
             <Stack
               sx={{ pt: 4 }}
