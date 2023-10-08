@@ -3,12 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./pages/Home";
 
 const App = () => {
-  return (
-    <BrowserRouter>
-      <Home/>
-      <Route />
-    </BrowserRouter>
-  );
+  return <Home />;
 };
 
 export default App;
