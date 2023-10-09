@@ -1,9 +1,17 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Home from "./pages/Home";
+import TopicPage from "./pages/TopicPage";
 
 const App = () => {
-  return <Home />;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/topic/:topic" component={TopicPage} />
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
 export default App;
