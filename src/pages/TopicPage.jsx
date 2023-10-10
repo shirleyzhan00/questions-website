@@ -11,7 +11,7 @@ import {
   InputLabel,
   Select,
 } from "@mui/material";
-
+import QuestionCard from "../components/QuestionCard";
 const TopicPage = () => {
   const { topic } = useParams();
   const [optionField, setOptionField] = useState("Answer Questions");
@@ -149,6 +149,12 @@ const TopicPage = () => {
             Confirm
           </Button>
         </Stack>
+        <QuestionCard
+          question="What is the capital of France?"
+          options={["Paris", "London", "Berlin", "Madrid"]}
+          correctAnswer={0}
+          explanation="Paris is the capital of France."
+        />
       </Container>
     </Box>
   );
