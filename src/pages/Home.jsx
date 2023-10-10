@@ -23,7 +23,9 @@ const Home = () => {
   };
 
   const handleTopicChangeClick = (event) => {
-    window.location.href = `/topic/${topic}`;
+    if (topic !== "") {
+      window.location.href = `/questions/${topic}`;
+    }
   };
 
   return (
@@ -80,8 +82,12 @@ const Home = () => {
                   label="Age"
                   onChange={handleTopicChange}
                 >
-                  {topics.map((element) => {
-                    return <MenuItem value={element}>{element}</MenuItem>;
+                  {topics.map((element, i) => {
+                    return (
+                      <MenuItem key={i} value={element}>
+                        {element}
+                      </MenuItem>
+                    );
                   })}
                 </Select>
               </FormControl>
