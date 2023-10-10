@@ -31,13 +31,6 @@ const Home = () => {
   return (
     <ThemeProvider theme={defaultTheme}>
       <CssBaseline />
-      <AppBar position="relative">
-        <Toolbar>
-          <Typography variant="h6" color="inherit" noWrap>
-            CS Questions Website
-          </Typography>
-        </Toolbar>
-      </AppBar>
       <main>
         {/* Hero unit */}
         <Box
