@@ -6,7 +6,7 @@ const NavBar = () => {
       <Toolbar>
         <Link to="/">
           <Typography variant="h6" color="inherit" noWrap>
-            CS Questions Website
+            Studying Website
           </Typography>
         </Link>
       </Toolbar>

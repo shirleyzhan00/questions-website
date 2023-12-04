@@ -48,7 +48,7 @@ const Home = () => {
               color="text.primary"
               gutterBottom
             >
-              CS Questions Website
+              Studying Website
             </Typography>
             <Typography
               variant="h5"
