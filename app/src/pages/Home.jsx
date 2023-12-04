@@ -58,7 +58,8 @@ const Home = () => {
             >
               This is a website dedicated to refresh your memories on the
               concepts on various subjects in the computer science and
-              programming field.
+              programming field. It can be used to check your notes or take
+              quizzes on concepts you've learned.
             </Typography>
             <Stack
               sx={{ pt: 4 }}
