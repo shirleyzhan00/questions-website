@@ -11,8 +11,8 @@ const OptionButton = styled(Button)(({ theme, isSelected, isCorrect }) => ({
   padding: theme.spacing(1),
   backgroundColor: isSelected
     ? isCorrect
-      ? "#388e3c" // Green for correct answers
-      : "#d32f2f" // Red for incorrect answers
+      ? "#388e3c"
+      : "#d32f2f"
     : "transparent",
   color: isSelected ? "white" : "inherit", // White text for selected option, inherit text color for others
   "&:hover": {
