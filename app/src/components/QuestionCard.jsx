@@ -62,8 +62,8 @@ const QuestionCard = ({ question, options, correctAnswer, explanation }) => {
         {selectedOption !== null && (
           <Typography variant="body1">
             {selectedOption === correctAnswer
-              ? `Correct! ${explanation}`
-              : `Incorrect. ${explanation}`}
+              ? `That's correct! ${explanation}`
+              : `That's incorrect. ${explanation}`}
           </Typography>
         )}
       </CardContent>
